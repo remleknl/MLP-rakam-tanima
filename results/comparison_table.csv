@@ -1,0 +1,5 @@
+﻿Model;Mimari;Optimizer;LR;Dropout;Son Train Acc (%);Son Val Acc (%);Test Acc (%);Eğitim Süresi (s)
+A_SGD_Kucuk;784→256→128→10;SGD;0.01;Hayır;100.0;98.06;98.2;67.7
+B_Adam_Kucuk;784→256→128→10;Adam;0.001;Hayır;99.65;97.51;97.68;72.6
+C_Adam_Derin;784→512→256→128→10;Adam;0.001;Hayır;99.64;97.69;97.91;89.1
+D_Adam_Dropout;784→512→256→128→10;Adam;0.001;Evet;98.64;97.75;98.29;94.0

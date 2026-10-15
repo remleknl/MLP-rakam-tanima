@@ -1,0 +1,15 @@
+# MNIST ham veri (indirilebilir, repoya eklenmez)
+data/
+
+# Model ağırlıkları (büyük dosyalar)
+results/*.pt
+
+# Segmentasyon çıktıları (geçici)
+my_digits/segmented/
+my_digits/segmented_2/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
