@@ -1,15 +1,3 @@
-"""
-Kullanım:
-  1. my_digits/ klasörüne el yazısı rakam görüntülerini koy.
-     Dosya adı isteğe bağlıdır; örn: '3.png', 'digit1.jpg'
-  2. Hangi modeli kullanmak istediğinizi belirtin (varsayılan: en iyi model)
-     python3 test_custom.py --model D_Adam_Dropout
-
-Görüntü gereksinimleri:
-  - Siyah arka plan üzerinde beyaz rakam (MNIST formatı)
-  - Veya beyaz arka plan üzerinde siyah rakam — script otomatik çevirir
-"""
-
 import os
 import argparse
 import glob
